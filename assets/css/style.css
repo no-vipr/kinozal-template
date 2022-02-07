@@ -1,0 +1,102 @@
+.header-logo__title, .header-logo__description {
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000;
+}
+
+.navbar-inverse {
+  background-color: #191919;
+}
+.navbar-inverse .navbar-nav > li > a {
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #165690;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #053159;
+}
+.navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #517ba2;
+}
+
+.navbar-header {
+  text-align: center;
+}
+
+.navbar-toggle {
+  float: none;
+  margin-right: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+a {
+  color: #165690;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #df8a13;
+}
+
+.header-logo {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #232323;
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.header-logo__title {
+  display: block;
+  font-family: "PT Serif", serif;
+  letter-spacing: 0.33em;
+  margin-right: -0.33em;
+  color: #df8a13;
+}
+.header-logo__description {
+  display: block;
+  font-size: 1.15rem;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+@media (min-width: 576px) {
+  .header-logo__title {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-inverse .navbar-nav > li > a {
+    border-radius: 4px;
+  }
+  .navbar-left {
+    margin-bottom: 0;
+  }
+  .navbar-left > li {
+    margin: 5px 5px 5px 0;
+  }
+  .navbar-right {
+    margin-top: 0;
+  }
+  .navbar-right > li {
+    margin: 5px 0 5px 5px;
+  }
+}
+@media (max-width: 767.8px) {
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+  }
+}
+@media (max-width: 575.8px) {
+  .header-logo__title {
+    font-size: 2.5rem;
+  }
+}
