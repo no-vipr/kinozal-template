@@ -1,2 +1,6 @@
 @use "presets" as *;
 @use "mixins" as *;
+
+.main {
+  margin-bottom: $gap-xl;
+}
