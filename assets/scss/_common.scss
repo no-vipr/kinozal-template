@@ -6,9 +6,10 @@ html {
 }
 
 body {
+  overflow-y: scroll;
+
   font-family: $font-main;
   font-size: $font-size;
-  overflow-y: scroll;
 }
 
 a {
@@ -17,6 +18,7 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
+
     color: $color-accent;
   }
 }
