@@ -118,6 +118,20 @@ a:hover, a:focus {
   margin-bottom: 60px;
 }
 
+.new-films h1 {
+  font-family: "PT Serif", serif;
+  font-size: 3em;
+  margin-bottom: 48px;
+  margin-top: -10px;
+}
+.new-films h1::after {
+  position: absolute;
+  width: 490px;
+  margin-left: 15px;
+  margin-top: 41px;
+  content: "";
+  border-bottom: 3px solid #f0ad4f;
+}
 .new-films-row {
   margin-right: -7.5px;
   margin-left: -7.5px;
